@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6fef9; /* CAMBIAR: color de fondo principal */
+    color: #1c1c1c;
+}
+header {
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffffff; /* CAMBIAR: color del header */
+}
+.logo {
+    max-width: 180px;
+}
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #e3f7ec; /* CAMBIAR: fondo de sección hero */
+}
+.hero .btn {
+    background-color: #00723f; /* CAMBIAR: color del botón */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.benefits {
+    padding: 2rem 1rem;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.grid > div {
+    background-color: #ffffff; /* CAMBIAR: fondo de tarjetas */
+    padding: 1rem;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.contacto {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #d5f5e3; /* CAMBIAR: fondo sección contacto */
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0; /* CAMBIAR: fondo footer */
+    font-size: 0.9rem;
+}
