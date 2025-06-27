@@ -52,3 +52,28 @@ footer {
     background-color: #f0f0f0; /* CAMBIAR: fondo footer */
     font-size: 0.9rem;
 }
+.main-header {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.container-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-header {
+  height: 32px;
+  width: auto;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #154734; /* verde oscuro del logo */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
