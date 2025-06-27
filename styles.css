@@ -107,4 +107,32 @@ footer {
   max-width: 100%;
   height: auto;
 }
+.benefits {
+  padding: 4rem 1rem;
+  background-color: #e7f8f0; /* Color suave verde claro */
+  text-align: center;
+}
+
+.benefits .grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.benefit-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  width: 300px;
+  text-align: center;
+}
+
+.benefit-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
 
