@@ -54,8 +54,8 @@ footer {
 }
 .main-header {
   display: flex;
-  justify-content: center;
-  padding: 12px 0;
+  justify-content: flex-start;
+  padding: 12px 32px;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
@@ -66,7 +66,7 @@ footer {
 }
 
 .logo-header {
-  height: 32px;
+  height: 32px; /* o probá con 40px si lo ves muy chico */
   width: auto;
 }
 
