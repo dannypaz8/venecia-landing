@@ -76,4 +76,35 @@ footer {
   color: #154734; /* verde oscuro del logo */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.hero {
+  background-color: #e6f9ef;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-imagen {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.hero-imagen img {
+  max-width: 100%;
+  height: auto;
+}
 
