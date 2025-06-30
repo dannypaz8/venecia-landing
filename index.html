@@ -124,31 +124,37 @@
       <!-- Repetir si se quiere efecto carrusel o scroll infinito -->
     </div>
   </section>
-  <section style="background-color: #0D2A2E; color: white; padding: 4rem 2rem;">
-    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 3rem; max-width: 1200px; margin: 0 auto;">
-      <div style="flex: 1; min-width: 300px;">
-        <h2 style="font-size: 1.25rem; margin-bottom: 1rem; color: #C7F9E5;">
-          🔥 El costo oculto de tus decisiones
-        </h2>
-        <h1 style="font-size: 2.5rem; margin-bottom: 1rem; font-weight: bold; color: #FFFFFF;">
-          💸 USD 200.000 perdidos por año
-        </h1>
-        <p style="font-size: 1rem; margin-bottom: 1.5rem; line-height: 1.6; color: #C7F9E5;">
-          por productos vencidos, sobrestock no detectado o decisiones de compra mal ajustadas.
-        </p>
-        <p style="font-size: 1rem; line-height: 1.6; color: #C7F9E5;">
-          <strong>Más del 60%</strong> de las decisiones comerciales se toman con información incompleta o desactualizada.
-        </p>
-      </div>
-      <div style="flex: 1; min-width: 300px; text-align: center;">
-        <img src="grafico-perdidas-supermercado.png" alt="Gráfico de pérdidas" style="max-width: 250px; margin-bottom: 1rem;">
-        <p style="font-size: 0.9rem; color: #C7F9E5;">
-          🟢 70% Vencimientos y sobrestock<br>
-          🟩 30% Otros factores
-        </p>
+  <section class="py-20 px-6 bg-[#072829]">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h3 class="text-lg font-semibold text-primary-200 tracking-wide uppercase mb-2">
+        El costo oculto de las decisiones comerciales
+      </h3>
+      <h2 class="text-4xl font-extrabold text-white mb-4">
+        USD 200.000 perdidos por año
+      </h2>
+      <p class="text-gray-300 text-base leading-relaxed mb-4">
+        Por productos vencidos, sobrestock no detectado o decisiones de compra mal ajustadas.
+      </p>
+      <p class="text-gray-300 text-base">
+        <strong class="text-white">Más del 60%</strong> de las decisiones comerciales se toman con información incompleta o desactualizada.
+      </p>
+    </div>
+    <div class="flex flex-col items-center justify-center">
+      <img src="grafico-perdidas-supermercado.png" alt="Gráfico de pérdidas" class="w-56 h-56 mb-4" />
+      <div class="text-sm text-gray-300 text-left">
+        <div class="flex items-center gap-2">
+          <span class="inline-block w-3 h-3 rounded-full bg-green-500"></span>
+          <span>70% Vencimientos y sobrestock</span>
+        </div>
+        <div class="flex items-center gap-2 mt-1">
+          <span class="inline-block w-3 h-3 rounded bg-green-300"></span>
+          <span>30% Otros factores</span>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   <section id="contacto" class="contacto">
     <h2>Contacto</h2>
     <p>¿Querés saber más? Escribinos.</p>
