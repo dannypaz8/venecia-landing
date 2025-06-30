@@ -123,9 +123,45 @@ body {
 
 /* CONTENEDOR CONTACTO */
 .contacto {
-    text-align: center;
-    padding: 2rem 1rem;
-    background-color: #ffffff; /* CAMBIAR: fondo sección contacto */
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #ffffff;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 1.5rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #00723f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005e34;
 }
 
 /* CONTENEDOR FOOTER */
