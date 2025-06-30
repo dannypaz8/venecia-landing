@@ -66,18 +66,9 @@ body {
 .cta-button:hover {
   background-color: #444;
 }
-.hero {
-    text-align: center;
-    padding: 3rem 1rem;
-    background-color: #e3f7ec; /* CAMBIAR: fondo de sección hero */
-}
-.hero .btn {
-    background-color: #00723f; /* CAMBIAR: color del botón */
-    color: white;
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-}
+
+/* CONTENEDOR BENEFITS */
+
 .benefits {
     padding: 2rem 1rem;
 }
@@ -94,41 +85,29 @@ body {
     width: 280px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
+/* CONTENEDOR CONTACTO */
 .contacto {
     text-align: center;
     padding: 2rem 1rem;
     background-color: #ffffff; /* CAMBIAR: fondo sección contacto */
 }
+
+/* CONTENEDOR FOOTER */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #f0f0f0; /* CAMBIAR: fondo footer */
     font-size: 0.9rem;
 }
-.main-header {
-  display: flex;
-  justify-content: flex-start;
-  padding: 12px 32px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-.container-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.logo-header {
-  height: 40px; /* o probá con 40px si lo ves muy chico */
-  width: auto;
-}
-
 .brand-name {
   font-size: 20px;
   font-weight: 700;
   color: #154734; /* verde oscuro del logo */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+/* CONTENEDOR HERO */
 .hero {
   background-color: #e6f9ef;
   padding: 60px 20px;
