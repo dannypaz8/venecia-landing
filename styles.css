@@ -17,6 +17,39 @@ body {
 }
 
 /* CONTENEDOR CENTRAL */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1c1c1c;
+}
+
+/* Ocultar navegación en mobile */
+@media (max-width: 768px) {
+  .nav-cta {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .nav-cta.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
