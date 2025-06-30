@@ -157,9 +157,9 @@ footer {
   filter: brightness(100%) contrast(100%);
 }
 .pain-metric {
-  background-color: #1e1b48;
-  color: white;
-  padding: 4rem 2rem;
+  background-color: #d9f3e4;
+  padding: 4rem 1.5rem;
+  color: #145A32;
 }
 
 .pain-wrapper {
@@ -184,7 +184,7 @@ footer {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #ffffff;
+  color: #145A32;
 }
 
 .pain-text p {
