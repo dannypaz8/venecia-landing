@@ -157,45 +157,87 @@ footer {
   filter: brightness(100%) contrast(100%);
 }
 .pain-metric {
-  background-color: #d9f3e4;
-  padding: 4rem 1.5rem;
-  color: #1c1c1c;
+  background-color: #e6f5ef;
+  padding: 4rem 2rem;
 }
 
 .pain-wrapper {
   display: flex;
   flex-wrap: wrap;
+  gap: 3rem;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .pain-text {
-  max-width: 500px;
+  max-width: 480px;
+  color: #1c1c1c;
 }
 
-.pain-text h3 {
-  font-size: 1.2rem;
-  font-weight: 300;
+.pain-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
+  color: #145A32;
 }
 
-.pain-text h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+.pain-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #145A32;
+  margin: 0;
+}
+
+.pain-subtitle-2 {
+  font-size: 1.5rem;
+  font-weight: 500;
   margin-bottom: 1rem;
   color: #145A32;
 }
 
 .pain-text p {
   font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.pain-text strong {
+  font-weight: 700;
+  color: #145A32;
+}
+
+.pain-chart {
+  text-align: center;
 }
 
 .pain-chart img {
-  max-width: 250px;
+  width: 200px;
   height: auto;
+  margin-bottom: 1rem;
+}
+
+.chart-legend {
+  font-size: 0.95rem;
+  color: #1c1c1c;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.dot-principal {
+  background-color: #145A32;
+}
+
+.dot-secundario {
+  background-color: #a8e6cf;
 }
 .chart-legend {
   font-size: 0.9rem;
