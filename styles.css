@@ -1,17 +1,67 @@
-
+/* BODY GLOBAL */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f6fef9; /* CAMBIAR: color de fondo principal */
-    color: #1c1c1c;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4fef9;
+  color: #1c1c1c;
 }
-header {
-    padding: 1rem;
-    text-align: center;
-    background-color: #ffffff; /* CAMBIAR: color del header */
+
+/* HEADER STICKY */
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 12px 32px;
 }
-.logo {
-    max-width: 180px;
+
+/* CONTENEDOR CENTRAL */
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.logo-header {
+  height: 40px;
+  width: auto;
+}
+
+/* LINKS DE NAVEGACIÓN */
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* BOTÓN CTA */
+.cta-button {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #444;
 }
 .hero {
     text-align: center;
