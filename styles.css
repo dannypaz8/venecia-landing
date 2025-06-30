@@ -128,11 +128,14 @@ footer {
   width: 300px;
   text-align: center;
 }
-
 .benefit-icon {
   width: 64px;
   height: 64px;
+  object-fit: contain;
   margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
