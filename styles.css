@@ -70,7 +70,9 @@ body {
 /* CONTENEDOR BENEFITS */
 
 .benefits {
-    padding: 2rem 1rem;
+  padding: 2rem 1rem 3rem;
+  text-align: center;
+  background-color: #e9faf1; /* Color distinto al .hero */
 }
 .grid {
     display: flex;
