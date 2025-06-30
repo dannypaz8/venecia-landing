@@ -6,20 +6,21 @@ body {
   color: #1c1c1c;
 }
 
-/* HEADER STICKY */
+/* HEADER */
 .main-header {
   position: sticky;
   top: 0;
   z-index: 999;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  padding: 12px 32px;
+  padding: 12px 0;
 }
 
 /* CONTENEDOR CENTRAL */
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,21 +28,23 @@ body {
 
 /* LOGO */
 .logo-header {
-  height: 40px;
+  height: 52px;  /* Más grande */
   width: auto;
 }
 
-/* LINKS DE NAVEGACIÓN */
-.nav-links {
+/* BLOQUE NAV + CTA */
+.nav-cta {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 
+/* LINKS */
 .nav-links a {
   text-decoration: none;
   color: #1c1c1c;
   font-weight: 500;
-  position: relative;
+  transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
@@ -49,7 +52,7 @@ body {
   text-underline-offset: 4px;
 }
 
-/* BOTÓN CTA */
+/* CTA BOTÓN */
 .cta-button {
   background-color: #1c1c1c;
   color: white;
