@@ -159,7 +159,7 @@ footer {
 .pain-metric {
   background-color: #d9f3e4;
   padding: 4rem 1.5rem;
-  color: #145A32;
+  color: #1c1c1c;
 }
 
 .pain-wrapper {
@@ -196,5 +196,10 @@ footer {
 .pain-chart img {
   max-width: 250px;
   height: auto;
+}
+.chart-legend {
+  font-size: 0.9rem;
+  color: #145A32;
+  margin-top: 1rem;
 }
 
