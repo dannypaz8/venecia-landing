@@ -142,6 +142,34 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
+/* CONTENEDOR POWERED */
+
+.powered-by {
+  background-color: #0d5b36;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.powered-text {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.powered-logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.powered-logos img {
+  height: 40px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
 /* CONTENEDOR CONTACTO */
 .contacto {
   text-align: center;
