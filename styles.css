@@ -129,7 +129,7 @@ footer {
   text-align: center;
 }
 .benefit-icon {
-  width: 64px;
+  width: 150px;
   height: 150px;
   image-rendering: auto;
   object-fit: contain;
@@ -139,7 +139,7 @@ footer {
   margin-right: auto;
 }
 .trust-partners {
-  background: #1e1b48;
+  background: #145A32;
   padding: 3rem 1rem;
   overflow-x: auto;
 }
