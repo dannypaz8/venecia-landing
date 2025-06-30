@@ -156,5 +156,45 @@ footer {
   max-height: 40px;
   filter: brightness(100%) contrast(100%);
 }
+.pain-metric {
+  background-color: #1e1b48;
+  color: white;
+  padding: 4rem 2rem;
+}
 
+.pain-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.pain-text {
+  max-width: 500px;
+}
+
+.pain-text h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.pain-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.pain-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.pain-chart img {
+  max-width: 250px;
+  height: auto;
+}
 
