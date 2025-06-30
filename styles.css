@@ -138,5 +138,23 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+.trust-partners {
+  background: #1e1b48;
+  padding: 3rem 1rem;
+  overflow-x: auto;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.partners-container img {
+  max-height: 40px;
+  filter: brightness(100%) contrast(100%);
+}
 
 
