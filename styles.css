@@ -1,3 +1,7 @@
+/* HTML GLOBAL */
+html {
+  scroll-behavior: smooth;
+}
 /* BODY GLOBAL */
 body {
   margin: 0;
@@ -100,6 +104,23 @@ body {
   background-color: #444;
 }
 
+/* HERO BOTÓN */
+
+.btn {
+  background-color: #00723f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.btn:hover {
+  background-color: #005c34;
+}
+
+
 /* CONTENEDOR BENEFITS */
 
 .benefits {
@@ -180,8 +201,9 @@ footer {
 
 /* CONTENEDOR HERO */
 .hero {
-  background-color: #e6f9ef;
-  padding: 60px 20px;
+  background-color: #def8ea;
+  text-align: center;
+  padding: 2rem 1rem 2rem; /* antes era 4rem arriba y 3rem abajo */
 }
 
 .hero-content {
