@@ -122,26 +122,38 @@ body {
 
 
 /* CONTENEDOR BENEFITS */
-
 .benefits {
-  padding: 2rem 1rem 3rem;
+  padding: 4rem 1rem;
+  background-color: #e7f8f0; /* Color suave verde claro */
   text-align: center;
-  background-color: #e9faf1; /* Color distinto al .hero */
 }
+
+.benefit-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  width: 300px;
+  text-align: center;
+}
+
+.benefit-icon {
+  width: 150px;
+  height: 150px;
+  image-rendering: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
 }
-.grid > div {
-    background-color: #ffffff; /* CAMBIAR: fondo de tarjetas */
-    padding: 1rem;
-    border-radius: 8px;
-    width: 280px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
 /* CONTENEDOR POWERED */
 
 .powered-by {
@@ -225,12 +237,6 @@ footer {
     background-color: #f0f0f0; /* CAMBIAR: fondo footer */
     font-size: 0.9rem;
 }
-.brand-name {
-  font-size: 20px;
-  font-weight: 700;
-  color: #154734; /* verde oscuro del logo */
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 /* CONTENEDOR HERO */
 .hero {
@@ -287,37 +293,6 @@ footer {
 .hero-imagen img {
   max-width: 100%;
   height: auto;
-}
-.benefits {
-  padding: 4rem 1rem;
-  background-color: #e7f8f0; /* Color suave verde claro */
-  text-align: center;
-}
-
-.benefits .grid {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.benefit-item {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  width: 300px;
-  text-align: center;
-}
-.benefit-icon {
-  width: 150px;
-  height: 150px;
-  image-rendering: auto;
-  object-fit: contain;
-  margin-bottom: 1rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 .pain-metric {
   background-color: #e6f5ef;
