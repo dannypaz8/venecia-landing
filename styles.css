@@ -32,7 +32,7 @@ body {
 
 /* Ocultar navegación en mobile */
 @media (max-width: 768px) {
-  .nav-cta {
+  .main-header .nav-cta {
     display: none;
     flex-direction: column;
     background-color: white;
@@ -45,9 +45,10 @@ body {
     z-index: 1000;
   }
 
-  .nav-cta.active {
+  .main-header .nav-cta.active {
     display: flex;
   }
+}
 
   .hamburger {
     display: block;
@@ -67,13 +68,6 @@ body {
 .logo-header {
   height: 63px;  /* Más grande */
   width: auto;
-}
-
-/* BLOQUE NAV + CTA */
-.nav-cta {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 
 /* LINKS */
