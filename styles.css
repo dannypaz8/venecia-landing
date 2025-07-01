@@ -250,6 +250,29 @@ footer {
   flex-wrap: wrap;
 }
 
+.hero-texto h1 {
+  font-size: 2.5rem;     /* antes era ~2rem o por defecto */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-texto p {
+  font-size: 1.2rem;     /* un poco más grande */
+  line-height: 1.6;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+.hero-texto a.btn {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero-texto {
+    text-align: center;
+  }
+}
+
 .hero-texto {
   flex: 1;
   min-width: 300px;
@@ -295,24 +318,6 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.trust-partners {
-  background: #145A32;
-  padding: 3rem 1rem;
-  overflow-x: auto;
-}
-
-.partners-container {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.partners-container img {
-  max-height: 40px;
-  filter: brightness(100%) contrast(100%);
 }
 .pain-metric {
   background-color: #e6f5ef;
