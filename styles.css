@@ -176,11 +176,20 @@ body {
   flex-wrap: wrap;
 }
 
-.powered-logos img {
-  height: 105px;         /*   Antes: 60px */
-  max-width: 160px;       /* Antes: 120px */
-  object-fit: contain;
-  transition: transform 0.3s ease;
+/* .powered-logos img { */
+/*  height: 105px;    */     /*   Antes: 60px */
+/*  max-width: 160px;  */     /* Antes: 120px */
+/*  object-fit: contain;*/
+/*  transition: transform 0.3s ease; */
+/* } */
+
+section.powered-by .powered-logos img {
+    height: 160px;
+    transition: transform 0.3s ease;
+    margin: 0 16px;
+    filter: brightness(100%) contrast(110%);
+    width: auto;
+    min-width: 100px;
 }
 
 .powered-logos img:hover {
